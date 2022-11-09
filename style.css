@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ================ Background ================ */
+
+body {
+    background-image: linear-gradient(#3aa5a4,#7ae5e4);
+}
+header img {
+    position: absolute;
+    top:0;
+    opacity: 0.2;
+    left: 0px;
+    width: 100%;
+    height:80vh;
+    z-index: -2;
+}
+
+/* ================ h1/h2/paragraphs/header/footer ================ */
+
+header, footer {
+    text-align: center;
+    color: white;
+}
+header p {
+    margin-bottom: 50px;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+.paras {
+    font-size: 18px;
+    color: #505050c7;
+}
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 420;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+a:link, a:hover, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* ================ All sections - All images ================ */
+
+section {
+    position: relative;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: table;
+    padding: 80px;
+}
+#avatar, .proimg, .eduinfo, .langinfo, .socialnetinfo, .workinfo {
+    float: left;
+    margin-top: 40px;
+}
+#aboutme img, #projects img {
+    height: 220px;
+    width: 380px;
+}
+
+/* ================ About me ================ */
+
+#aboutme p {
+    max-width: 90%;
+    margin-top: 60px;
+}
+#avatar {
+    padding-right: 40px;
+}
+.projectimage {
+    padding-bottom: 15px;
+}
+.proimg {
+    margin-right: 20px;
+}
+
+/* ================ Education ================ */
+
+.eduinfo {
+    margin-right: 180px;
+}
+.info {
+    font-size: 20px;
+    color: #505050c7;
+}
+
+/* ================ Languages ================ */
+
+.langinfo {
+    margin-right: 180px;
+}
+
+/* ================ Social Networks ================ */
+
+.socialnetinfo {
+    margin-right: 180px;
+    float: left;
+}
+.sntext {
+    float: right;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+#socialnetwork img {
+    height: 40px;
+    width: 40px;
+}
+
+/* ================ Titles & Dates ================ */
+
+.titles {
+    font-weight: bold;
+    font-size: 20px;
+}
+.dates {
+    color: #9f9f9f;
+    font-size: 20px;
+}
+
+/* ================ Contact ================ */
+
+#button {
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.inputs {
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+    border: #ad9f99;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 95%;
+}
+textarea {
+    height: 180px;
+    max-width: 95%;
+    min-width: 20%;
+    min-height: 30%;
+}
+
+/* ================ Footer / Copyright ================ */
+
+footer {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
